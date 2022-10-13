@@ -1,0 +1,8 @@
+description: learn your rights and organize for better living conditions
+baseurl: /
+title: Tenants Rights
+email: alexn@tenantsunion.org
+
+# build settings
+markdown: CommonMark
+theme: minima
