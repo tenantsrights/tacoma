@@ -3,3 +3,12 @@
 ---
 
 @import "minima";
+
+// custom styles
+.phone {
+   position: absolute;
+   padding: 0.43em 1em;
+   top: 8px;
+   margin-left: 2.5em;
+   border-radius: 5px;
+ }
