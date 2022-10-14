@@ -5,6 +5,7 @@ email: alexn@tenantsunion.org
 
 # build settings
 markdown: CommonMark
+theme: minima
 
 commonmark:
   options: ["FOOTNOTES", "SMART"]
