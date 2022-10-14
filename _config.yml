@@ -7,16 +7,15 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-social_links:
-  twitter: TenantsUnionWa
-  facebook: TenantsUnion
-
 # build settings
 markdown: CommonMark
 theme: minima
 
 minima:
   skin: solarized
+  social_links:
+    twitter: TenantsUnionWa
+    facebook: TenantsUnion
 
 commonmark:
   options: ["FOOTNOTES", "SMART"]
