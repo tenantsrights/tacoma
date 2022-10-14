@@ -300,18 +300,6 @@ table {
     color:#57594D;
     }
 
-/* Read content styling */
-.prose ul {
-  list-style:disc;
-  margin-left:40px;
-  }
-.prose ol {
-  list-style:decimal;
-  }
-.prose p {
-  margin:0 0 10px;
-  }
-
 .icon {
   background:transparent url(img/sprite.png) no-repeat 0 0;
   display:block;
