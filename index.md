@@ -7,3 +7,7 @@
 #
 layout: home
 ---
+<div class='hero'>
+  <img class='feature-img' src="{{ 'assets/pexels-rodnae-productions-6257042.jpg' | relative_url }}"
+  <p class='signup'>signup form here</p>
+</div>
