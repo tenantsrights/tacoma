@@ -8,6 +8,6 @@
 layout: home
 ---
 <div class='hero'>
-  <img class='feature-img' src="{{ 'assets/pexels-rodnae-productions-6257042.jpg' | relative_url }}"</img>
+  <img class='feature-img' src="{{ 'assets/pexels-rodnae-productions-6257042.jpg' | prepend: site_baseurl | relative_url }}"</img>
   <p class='signup'>signup form here</p>
 </div>
