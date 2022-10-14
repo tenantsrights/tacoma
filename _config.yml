@@ -31,6 +31,9 @@ social_links:
 markdown: CommonMark
 theme: minima
 
+minima:
+  skin: solarized
+
 commonmark:
   options: ["FOOTNOTES", "SMART"]
   extensions: ["strikethrough", "autolink", "table", "tasklist", "tagfilter"]
