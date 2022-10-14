@@ -1,6 +1,7 @@
 ---
 ---
+// custom variables that Minima can use
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'solarized' }}",
-  "minima/initialize";
+@import "minima-{{ site.minima.skin | default: 'classic' }}";
+
+// custom CSS rules that override Minima's rules
