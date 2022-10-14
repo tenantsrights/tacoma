@@ -5,3 +5,11 @@
 @import "minima-{{ site.minima.skin | default: 'classic' }}";
 
 // custom CSS rules that override Minima's rules
+
+.phone {
+  position: absolute;
+  padding: 0.43em 1em;
+  top: 8px;
+  margin-left: 1em;
+  border-radius: 5px;
+}
