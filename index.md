@@ -7,7 +7,6 @@
 #
 layout: home
 ---
-<div class='hero'>
-  <img class='feature-img' src="{{ 'assets/fair-housing.JPG' | prepend: site_baseurl | absolute_url }}"/>
+<div class=''>
   <p class='signup'>signup form here</p>
 </div>
