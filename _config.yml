@@ -1,7 +1,31 @@
-description: learn your rights and organize for better living conditions
-baseurl: /
 title: Tenants Rights
-email: alexn@tenantsunion.org
+author:
+  name:  Alex N
+  email: alexn@tenantsunion.org
+description: > # this means to ignore newlines until "show_excerpts:"
+  learn your rights and organize for better living conditions
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+social_links:
+    twitter: TenantsUnionWa
+    # github:  jekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    facebook: TenantsUnion
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+    # google_scholar_id: qc6CJjYAAAAJ
+
 
 # build settings
 markdown: CommonMark
