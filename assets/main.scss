@@ -76,14 +76,19 @@ nav .site-nav {
 .sign-up {
   background-color: #ffffff;
   opacity: 91%;
+  border-radius: 3px;
   max-width: 26em;
   margin: 0 auto;
   display: inline-block;
   text-align: left;
-  padding: 2em;
+  padding: 2em 2em 0.43em 2em;
   color: #424242;
   font-size: 1.12em;
   letter-spacing: .02em;
+}
+
+.email-icon {
+    background: url('../assets/email-icon.svg');
 }
 
 .signup-form {
@@ -114,6 +119,10 @@ nav .site-nav {
   color: #ffffff;
   border: none;
   letter-spacing: .04em;
+}
+
+.disclaimer {
+  font-size: .72em;
 }
 
 
