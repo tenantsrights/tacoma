@@ -28,7 +28,6 @@ header .wrapper {
    flex-grow: 1;
    display: inline-block;
    align-self: flex-start;
-   letter-spacing: .1em;
 }
 
 .phone {
@@ -80,7 +79,7 @@ footer .wrapper {
 .site-logo {
   background: url('../assets/tu-logo.svg');
   margin: 0 auto;
-  margin-bottom: 1em;
+  margin-bottom: 1.23em;
   max-width: 12.8em;
   max-height: 3.3em;
   min-width: 12.8em;
@@ -89,11 +88,13 @@ footer .wrapper {
 
 .foot-info {
    max-width: 16em;
+   margin-top: 1.23em;
 }
 
 .social-links {
    float: right;
    display: flex;
+   margin-top: 1.23em;
 }
 
 .social-icon {
