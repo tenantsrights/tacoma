@@ -8,6 +8,7 @@
 layout: home
 ---
 <div class="sign-up">
+      <img class="email-icon" />
       #Sign Up
 
       Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
