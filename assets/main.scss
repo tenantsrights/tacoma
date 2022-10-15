@@ -11,6 +11,10 @@
 .fr { float: right; }
 .fl { float: left; }
 
+// global
+.h1 {
+  letter-spacing: 0.2em;
+}
 
 // header
 .site-header {
@@ -74,6 +78,9 @@ nav .site-nav {
   display: inline-block;
   text-align: left;
   padding: 2em;
+  color: #424242;
+  font-size: 1.12em;
+  letter-spacing: .02em;
 }
 
 .signup-form {
@@ -81,14 +88,17 @@ nav .site-nav {
   flex-direction: column;
   align-items: center;
   padding: 1em 0;
+  margin: 0 auto;
 }
 
 .signup-email {
-  width: 100%;
+  width: 89%;
+  color: #424242;
+  font-size: 1.01em;
   display: inline-block;
   margin-bottom: .5em;
-  padding: 1.43em 0;
-  border: 1px solid #121212;
+  padding: 1.43em;
+  border: 1px solid #424242;
   border-radius: 5px;
 }
 
@@ -97,10 +107,10 @@ nav .site-nav {
   display: inline-block;
   background-color: #2a7ae2;
   border-radius: 5px;
-  padding: 1.43em 0;
+  padding: 1.43em 0 0;
   color: #ffffff;
   border: none;
-  letter-spacing: .02em;
+  letter-spacing: .04em;
 }
 
 
