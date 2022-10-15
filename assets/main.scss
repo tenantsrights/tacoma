@@ -90,8 +90,16 @@ nav .site-nav {
 .email-icon {
     width: 4em;
     height: 4em;
-    margin: 0 0 1em 0;
+    float: right;
     background: url('../assets/email-icon.svg');
+}
+
+.signup-title {
+  margin: 1em 0 0;
+}
+
+.signup-info {
+  white-space: pre-line;
 }
 
 .signup-form {
