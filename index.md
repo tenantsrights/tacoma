@@ -7,6 +7,4 @@
 #
 layout: home
 ---
-<div class=''>
-  <p class='signup'>signup form here</p>
-</div>
+stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
