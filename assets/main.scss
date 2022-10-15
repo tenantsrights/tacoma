@@ -15,6 +15,7 @@
 // cover image
 .home {
   background: url('../assets/fair-housing.jpeg');
+  min-height: 38em;
 }
 
 
@@ -56,6 +57,10 @@ nav .site-nav {
 footer .wrapper {
    margin: 0 auto;
    padding: 0 2em;
+}
+
+.site-logo {
+  background: url('../assets/tenantlogo.svg');
 }
 
 .foot-info {
