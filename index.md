@@ -7,20 +7,23 @@
 #
 layout: home
 ---
-<div class="sign-up">
-      <img class="email-icon" />
-      <h1>Sign Up</h1>
+<div class="container">
+      <div class="sign-up">
+            <img class="email-icon" />
+            <h1>Sign Up</h1>
 
-      Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
+            Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
 
-      <form action="https://formkeep.com/f/6724162f85e2"
-            accept-charset="UTF-8"
-            enctype="multipart/form-data"
-            method="POST">
-        <input type="email" id="email-address" name="email">
+            <form action="https://formkeep.com/f/6724162f85e2"
+                  accept-charset="UTF-8"
+                  enctype="multipart/form-data"
+                  method="POST"
+                  class="signup-form">
+              <input type="email" id="email-address" name="email" class="signup-email">
 
-        <button type="submit" placeholder="Enter your e-mail address">Sign Up</button>
-      </form>
+              <button type="submit" placeholder="Enter your e-mail address" class="signup-button">Sign Up</button>
+            </form>
 
-      By submitting your information, you are granting us permission to email you.  You may unsubscribe at any time
+            By submitting your information, you are granting us permission to email you.  You may unsubscribe at any time
+      </div>
 </div>
