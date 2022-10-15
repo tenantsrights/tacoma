@@ -8,6 +8,7 @@ permalink: /contact/
       accept-charset="UTF-8"
       enctype="multipart/form-data"
       method="POST">
+    
     <label for="name">Name</label>
     <input type="text" id="name" name="name">
 
