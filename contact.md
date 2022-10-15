@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: contact
 permalink: /contact/
 ---
 
-# contact
+# {{ site.author.email }}
