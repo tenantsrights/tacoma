@@ -26,7 +26,7 @@ layout: home
               <button type="submit" placeholder="Enter your e-mail address" class="signup-button"><h2>Sign Up</h2></button>
             </form>
             
-            <p>
+            <p class="disclaimer">
             By submitting your information, you are granting us permission to email you.  You may unsubscribe at any time
             </p>
       </div>
