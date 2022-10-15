@@ -16,7 +16,7 @@ permalink: /contact/
     <input type="email" id="email-address" name="email">
 
     <label for="phone">Phone</label>
-    <input type="text" id="phone" name="phone">
+    <input type="tel" id="phone" name="phone">
     
     <label for="message">Message</label>
     <input type="text" id="message" name="message">
