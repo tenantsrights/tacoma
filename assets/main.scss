@@ -28,6 +28,10 @@ header .wrapper {
    align-items: center;
 }
 
+.site-logo {
+   background: url('../assets/tu-icon.svg');
+}
+
 .site-title {
    flex-grow: 1;
    display: inline-block;
