@@ -7,15 +7,19 @@
 #
 layout: home
 ---
-Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
+<div class="sign-up">
+      #Sign Up
 
-<form action="https://formkeep.com/f/6724162f85e2"
-      accept-charset="UTF-8"
-      enctype="multipart/form-data"
-      method="POST">
-  <input type="email" id="email-address" name="email">
+      Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
 
-  <button type="submit">Sign Up</button>
-</form>
+      <form action="https://formkeep.com/f/6724162f85e2"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+            method="POST">
+        <input type="email" id="email-address" name="email">
 
-By submitting your information, you are granting us permission to email you.  You may unsubscribe at any time
+        <button type="submit" placeholder="Enter your e-mail address">Sign Up</button>
+      </form>
+
+      By submitting your information, you are granting us permission to email you.  You may unsubscribe at any time
+</div>
