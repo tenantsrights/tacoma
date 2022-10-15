@@ -10,9 +10,9 @@ layout: home
 <div class="container">
       <div class="sign-up">
             <img class="email-icon" />
-            <h1 class="sign-up-title">Sign Up</h1>
+            <h1 class="signup-title">Sign Up</h1>
 
-            <p class="sign-up-info">
+            <p class="signup-info">
                   Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
             </p>
                   
