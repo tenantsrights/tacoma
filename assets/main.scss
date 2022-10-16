@@ -79,10 +79,13 @@ header .wrapper {
   }
  }
 
+nav {
+   z-index: 999999;
+}
+
 nav .site-nav {
    display: inline-block;
    align-self: flex-end;
-   z-index: 999999;
 }
 
 
