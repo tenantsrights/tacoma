@@ -7,7 +7,7 @@
     <a href="{{ "/" | relative_url }}">
       <div class="contain-logo">
         <span class="site-icon"></span>
-        <a class="site-title" rel="author">{{ site.title | escape }}</a>
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       </div>
     </a>
     <a class="phone" href="tel:{{ site.author.phone }}">call</a>
