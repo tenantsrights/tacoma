@@ -43,6 +43,7 @@ header .wrapper {
    min-width: 3.33em;
    min-height: 3.33em;
    display: inline-block;
+   filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
 }
 
 .site-title {
@@ -52,7 +53,7 @@ header .wrapper {
    font-size: 1em;
    font-weight: 500;
    letter-spacing: 0.001em;
-   line-height: 1.23em;
+   line-height: 1.28em;
 }
 
 .phone {
@@ -110,6 +111,7 @@ nav .site-nav {
     height: 4em;
     float: right;
     background: url('../assets/email-icon.svg');
+    filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
 }
 
 .signup-title {
