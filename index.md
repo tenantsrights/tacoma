@@ -21,9 +21,9 @@ layout: home
                   enctype="multipart/form-data"
                   method="POST"
                   class="signup-form">
-              <input type="email" id="email-address" name="email" class="signup-email">
+              <input type="email" placeholder="Enter your e-mail address" id="email-address" name="email" class="signup-email">
 
-              <button type="submit" placeholder="Enter your e-mail address" class="signup-button"><h2>Sign Up</h2></button>
+              <button type="submit" class="signup-button"><h2>Sign Up</h2></button>
             </form>
             
             <p class="disclaimer">
