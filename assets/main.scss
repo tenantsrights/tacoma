@@ -56,8 +56,10 @@ header .wrapper {
    padding-left: 0.23em;
    @media (max-width: 540px) {
      font-size: 1em;
-     line-height: 1.28em;
      padding-left: 0;
+  }
+  @media (max-width: 348) {
+     line-height: 1.28em;
   }
   @media (max-width: 280px) {
      font-size: .89em;
