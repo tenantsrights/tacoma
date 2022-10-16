@@ -50,10 +50,16 @@ header .wrapper {
    flex-grow: 1;
    display: inline-block;
    align-self: flex-end;
-   font-size: 1em;
+   font-size: 1.72em;
    font-weight: 500;
    letter-spacing: 0.001em;
-   line-height: 1.28em;
+   line-height: 1.07em;
+   padding-left: 0.23em;
+   @media (max-width: 540px) {
+     font-size: 1em;
+     line-height: 1.28em;
+     padding-left: 0;
+  }
 }
 
 .phone {
