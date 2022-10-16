@@ -9,7 +9,7 @@ layout: home
 ---
 <div class="container">
       <div class="sign-up">
-            <img class="email-icon" />
+            <span class="email-icon" />
             <h1 class="signup-title">Sign Up</h1>
 
             <p class="signup-info">
