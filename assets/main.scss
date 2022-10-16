@@ -28,17 +28,26 @@ header .wrapper {
    align-items: center;
 }
 
+.logo-wrap {
+   flex-grow: 1;
+   display: inline-block;
+   align-self: flex-start;
+   display: flex;
+   align-items: center;
+}
+
 .site-icon {
    background: url('../assets/tu-icon.svg');
    width: 3.33em;
    height: 3.33em;
+   display: inline-block;
 }
 
 .site-title {
    flex-grow: 1;
    display: inline-block;
-   align-self: flex-start;
-   font-size: 1.28em;
+   align-self: flex-end;
+   font-size: 1em;
    font-weight: 500;
    letter-spacing: 0.001em;
 }
