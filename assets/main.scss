@@ -60,6 +60,9 @@ header .wrapper {
      line-height: 1.28em;
      padding-left: 0;
   }
+  @media (max-width: 280px) {
+     font-size: .89em;
+  }
 }
 
 .phone {
@@ -70,6 +73,10 @@ header .wrapper {
    background-color: #2a7ae2;
    color: #ffffff;
    line-height: 2.8em;
+   @media (max-width: 280px) {  
+     line-height: 2.3em;
+     padding: .23em .73em;
+  }
  }
 
 nav .site-nav {
@@ -111,6 +118,9 @@ nav .site-nav {
   color: #424242;
   font-size: 1.12em;
   letter-spacing: .02em;
+  @media (max-width: 280px) {
+      font-size: 1em;
+  }
 }
 
 .email-icon {
@@ -119,10 +129,17 @@ nav .site-nav {
     float: right;
     background: url('../assets/email-icon.svg');
     filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
+    @media (max-width: 280px) {
+      width: 2em;
+      height: 2em;
+  }
 }
 
 .signup-title {
   line-height: 1.23em;
+  @media (max-width: 280px) {
+    font-size: 1.73em;
+  }
 }
 
 .signup-info {
@@ -147,6 +164,9 @@ nav .site-nav {
   padding: 1.43em;
   border: 1px solid #424242;
   border-radius: 5px;
+  @media (max-width: 280px) {
+    font-size: .8em;
+  }
 }
 
 .signup-button {
