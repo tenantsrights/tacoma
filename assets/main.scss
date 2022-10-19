@@ -12,8 +12,35 @@
 .fl { float: left; }
 
 // global
-.h1 {
+body {
+  font-size: 1.12em;
+  letter-spacing: .02em;
+}
+h1 {
   letter-spacing: 0.2em;
+}
+form {
+  display: flex;
+  padding: 1em 0;
+  margin: 0 auto;
+}
+input {
+  font-size: 1.01em;
+  color: #424242;
+  display: inline-block;
+  margin-bottom: 0.43em;
+  padding: 1.43em;
+  border: 1px solid #424242;
+  border-radius: 5px;
+}
+button {
+  display: inline-block;
+  background-color: #2a7ae2;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  letter-spacing: .04em;
+  padding: 1.43em 0 0;
 }
 
 // header
@@ -37,13 +64,12 @@ header .wrapper {
 }
 
 .site-icon {
-   display: none;
    background: url('../assets/tu-icon.svg');
    max-width: 3.33em;
    max-height: 3.33em;
    min-width: 3.33em;
    min-height: 3.33em;
-   display: inline-block;
+   display: none;
    filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
 }
 
@@ -200,22 +226,12 @@ footer .wrapper {
 }
 
 .signup-form {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em 0;
-  margin: 0 auto;
 }
 
 .signup-email {
   width: 89%;
-  color: #424242;
-  font-size: 1.01em;
-  display: inline-block;
-  margin-bottom: .5em;
-  padding: 1.43em;
-  border: 1px solid #424242;
-  border-radius: 5px;
   @media (max-width: 280px) {
     font-size: .8em;
   }
@@ -223,13 +239,6 @@ footer .wrapper {
 
 .signup-button {
   width: 100%;
-  display: inline-block;
-  background-color: #2a7ae2;
-  border-radius: 5px;
-  padding: 1.43em 0 0;
-  color: #ffffff;
-  border: none;
-  letter-spacing: .04em;
 }
 
 .disclaimer {
@@ -238,27 +247,3 @@ footer .wrapper {
 
 
 // contact
-.contact {
-  display: flex;
-  form {
-    line-height: 2em;
-    font-size: 1.01em;
-    input {
-      color: #424242;
-      margin-bottom: 0.43em;
-      border-radius: 5px;
-      border: 1px solid #424242;
-      padding: 1.43em;
-    }
-    button {
-      width: 89%;
-      margin: 1em 0;
-      line-height: 2.8em;
-      border-radius: 5px;
-      border: none;
-      padding: 0.34em 1em;
-      background-color: #2a7ae2
-      color: #ffffff;
-    }  
-  }
-}
