@@ -1,6 +1,5 @@
 ---
-layout: home
-title: contact
+layout: default
 permalink: /contact/
 ---
 <div class="splash-card">
