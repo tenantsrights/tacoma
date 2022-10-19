@@ -20,6 +20,6 @@ permalink: /contact/
     <label for="message">Message</label>
     <input type="text" id="message" name="message">
 
-    <button type="submit">Submit</button>
+    <button type="submit"><h2>Submit</h2></button>
   </form>
 </div>
