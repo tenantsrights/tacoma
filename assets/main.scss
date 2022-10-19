@@ -40,6 +40,7 @@ button {
   color: #ffffff;
   letter-spacing: .04em;
   padding: 1.43em 0 0;
+  width: 100%;
 }
 
 // header
@@ -138,8 +139,6 @@ nav .site-nav {
 .splash-card {
   background-color: #ffffff;
   color: #424242;
-  font-size: 1.12em;
-  letter-spacing: .02em;
   opacity: 91%;
   border-radius: 3px;
   border: none;
@@ -225,8 +224,6 @@ footer .wrapper {
 }
 
 .signup-form {
-  flex-direction: column;
-  align-items: center;
 }
 
 .signup-email {
@@ -237,7 +234,6 @@ footer .wrapper {
 }
 
 .signup-button {
-  width: 100%;
 }
 
 .disclaimer {
