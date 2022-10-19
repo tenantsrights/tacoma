@@ -168,6 +168,13 @@ nav .site-nav {
   }
 }
 
+.splash-title {
+  line-height: 1.23em;
+  @media (max-width: 280px) {
+    font-size: 1.73em;
+  }
+}
+
 // footer
 .site-footer {
   border-top: none;
@@ -223,13 +230,6 @@ footer .wrapper {
     @media (max-width: 280px) {
       width: 2em;
       height: 2em;
-  }
-}
-
-.signup-title {
-  line-height: 1.23em;
-  @media (max-width: 280px) {
-    font-size: 1.73em;
   }
 }
 
