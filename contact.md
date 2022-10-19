@@ -3,7 +3,7 @@ layout: page
 title: contact
 permalink: /contact/
 ---
-<div class="contact">
+<div class="splash-card">
   <form action="https://formkeep.com/f/770005ff69fe"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
