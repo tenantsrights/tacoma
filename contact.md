@@ -19,7 +19,7 @@ permalink: /contact/
     <input type="tel" id="phone" name="phone">
     
     <label for="message">Message</label>
-    <input type="text" id="message" name="message">
+    <textarea type="text" id="message" name="message">
 
     <button type="submit"><h2>Submit</h2></button>
   </form>
