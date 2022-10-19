@@ -20,7 +20,7 @@ permalink: /contact/
     <input type="tel" id="phone" name="phone" placeholder="phone">
     
     <label for="message"></label>
-    <textarea type="text" id="message" name="message" placeholder="message"></textarea>
+    <textarea type="text" id="message" name="message" placeholder="&nbsp;&ensp;message"></textarea>
 
     <button type="submit"><h2>Submit</h2></button>
   </form>
