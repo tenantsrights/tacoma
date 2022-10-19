@@ -16,6 +16,7 @@ body {
   font-size: 1.12em;
   letter-spacing: .02em;
 }
+
 form {
   display: flex;
   padding: 1em 0;
@@ -41,6 +42,10 @@ button {
   letter-spacing: .04em;
   padding: 1.43em 0 0;
   width: 100%;
+}
+
+.page-heading {
+  display: none;
 }
 
 // header
@@ -147,7 +152,7 @@ nav .site-nav {
   display: inline-block;
   text-align: left;
   padding: 2em 2em 0.43em 2em;
-  margin-top: 4em;
+  margin: 4em auto;
   @media (max-width: 280px) {
       font-size: 1em;
   }
