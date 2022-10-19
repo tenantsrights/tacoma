@@ -6,7 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: home
 ---
 <div class="home-container">
       <div class="splash-card">
