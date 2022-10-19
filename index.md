@@ -10,7 +10,7 @@ layout: home
 <div class="home-container">
       <div class="splash-card">
             <span class="email-icon"></span>
-            <h1 class="signup-title">Sign Up</h1>
+            <h1 class="splash-title">Sign Up</h1>
 
             <p class="signup-info">
                   Stay up to date on events, workshops and the latest information regarding renter's rights in Tacoma
