@@ -7,7 +7,7 @@
 #
 layout: home
 ---
-<div class="container">
+<div class="home-container">
       <div class="splash-card">
             <span class="email-icon"></span>
             <h1 class="signup-title">Sign Up</h1>
