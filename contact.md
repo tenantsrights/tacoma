@@ -4,6 +4,7 @@ title: contact
 permalink: /contact/
 ---
 <div class="splash-card">
+  <h1 class="splash-title>Contact</h1>
   <form action="https://formkeep.com/f/770005ff69fe"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
