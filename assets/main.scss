@@ -89,6 +89,7 @@ header .wrapper {
 }
 
 .site-title {
+   font-family: trebuchet ms;
    flex-grow: 1;
    display: inline-block;
    align-self: flex-end;
@@ -230,10 +231,6 @@ footer .wrapper {
     margin: 0 0.6em 0 0;
     background: url('../assets/email-icon.svg');
     filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
-    @media (max-width: 280px) {
-      width: 1em;
-      height: 1em;
-  }
 }
 
 .signup-info {
