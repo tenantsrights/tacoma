@@ -156,7 +156,7 @@ nav .site-nav {
   background-color: #ffffff;
   color: #424242;
   opacity: 91%;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
   max-width: 26em;
   margin: 0 auto;
@@ -171,6 +171,7 @@ nav .site-nav {
 
 .splash-title {
   line-height: 1.23em;
+  margin-bottom: 0;
   @media (max-width: 280px) {
     font-size: 1.73em;
   }
@@ -223,14 +224,15 @@ footer .wrapper {
 }
 
 .email-icon {
-    width: 4em;
-    height: 4em;
-    float: right;
+    width: 2em;
+    height: 2em;
+    float: left;
+    margin: 0 0.6em 0 0;
     background: url('../assets/email-icon.svg');
     filter: invert(22%) sepia(6%) saturate(21%) hue-rotate(5deg) brightness(98%) contrast(86%);
     @media (max-width: 280px) {
-      width: 2em;
-      height: 2em;
+      width: 1em;
+      height: 1em;
   }
 }
 
