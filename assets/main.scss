@@ -90,18 +90,21 @@ header .wrapper {
 
 .site-title {
    font-family: trebuchet ms;
+   letter-spacing: .03em;
    flex-grow: 1;
    display: inline-block;
    align-self: flex-end;
    font-size: 1.72em;
    font-weight: 500;
-   letter-spacing: 0.001em;
-   padding-left: 0.23em;
-   @media (max-width: 540px) {
-     font-size: 1em;
+   padding: 0 0.6em 0 0.23em;
+   @media (max-width: 500px) {
+     font-size: 1.43em;
      padding-left: 0;
    }
-   @media (max-width: 334px) {
+   @media (max-width: 423px) {
+     font-size: 1.23em;
+  }
+   @media (max-width: 384px) {
      line-height: 1.28em;
    }
    @media (max-width: 280px) {
